@@ -7,30 +7,7 @@
 #      http://www.apache.org/licenses/LICENSE-2.0
 #
 
-# Wifi
-ifeq ($(BOARD_HAVE_SAMSUNG_WIFI),true)
-include $(SAM_ROOT)/macloader/Android.mk
-endif
 
-ifeq ($(BOARD_VENDOR),samsung)
-include $(SAM_ROOT)/ril/Android.mk
-endif
-.modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 5px;
-    border: 1px solid;
-    width: 40%;
-    text-align:center;
-	border-image: url("border.png") ;
-	border-width: 30px 30px 30px 30px;
-	border-image-slice: 25 22;
-}
-}
-.redirect-text{
-  color:#ff0000;
-  
-}
 .close {
     color: #aaaaaa;
     float: right;
