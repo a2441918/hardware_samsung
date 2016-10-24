@@ -31,6 +31,27 @@ endif
   color:#ff0000;
   
 }
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: normal;
+	margin-top:-30px;
+    
+}
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 /* The Close Button */
 .close {
     color: #aaaaaa;
